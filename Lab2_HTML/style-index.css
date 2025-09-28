@@ -1,0 +1,13 @@
+/* Change font family for all elements */
+* {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(241, 78, 78)
+}
+
+#author-info {
+    font-weight: bold;
+}

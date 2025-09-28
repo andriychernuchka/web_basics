@@ -1,0 +1,33 @@
+/* Change font family for all elements */
+* {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#name {
+    font-weight: bold;
+}
+
+#years {
+    color: rgb(225, 63, 168);
+}
+
+#ps1 {
+    color: purple;
+}
+
+#sleep {
+    color: orange;
+}
+
+#album {
+    color: rgb(141, 141, 242);
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+#home-icon {
+    width: 24px;
+}
