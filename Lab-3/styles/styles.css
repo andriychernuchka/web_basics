@@ -1,0 +1,35 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid rgb(209, 57, 176);
+    border-radius: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(209, 57, 176);
+    font-weight: bold;
+}
+
+#information-about-us {
+    font-weight: bold;
+}
+
+i, em, span, b, strong {
+    color: rgb(172, 80, 181);
+}
+
+ol, ul {
+    border: 1px solid rgb(231, 96, 201);
+    border-radius: 15px;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 15px;
+}
