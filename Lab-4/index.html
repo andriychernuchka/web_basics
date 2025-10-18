@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my first HTML form</title>
-  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="16x16"  href="favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
 </head>
 <body>
     <h1>my first HTML form</h1>
@@ -48,15 +51,15 @@
                 <label for="tea">tea</label>
             </div>
             <div>
-                <input type="checkbox" id="juice" name="drinks" value="juice">
-                <label for="juice">juice</label>
+                <input type="checkbox" id="cola" name="drinks" value="cola">
+                <label for="cola">cola</label>
             </div>
             <div>
-                <input type="checkbox" id="water" name="drinks" value="water">
+                <input type="checkbox"id="water" name="drinks" value="water">
                 <label for="water">water</label>
             </div>
         </fieldset>
-        <p>
+        <p id="message">
             <label for="message">message:</label><br>
             <textarea id="message" name="user_message" rows="4" cols="30"></textarea>
         </p>

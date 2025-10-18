@@ -1,7 +1,14 @@
 * {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
+h1 {
+    color: blueviolet;
+}
 
-.drinks {
-    border-block-color: rgb(209, 57, 176);
+legend {
+    color: blueviolet;
+}
+
+#message {
+    color: blueviolet;
 }
