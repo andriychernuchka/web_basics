@@ -14,12 +14,13 @@
 
 .list-item {
   font-style: italic;
+  background-color: yellow;
 }
 
 /* 4. для усіх впорядкованих списків задайте рамку 1px solid red */
 
 ol {
-  border: 3px solid rgb(229, 176, 249);
+  border: 1px solid rgb(229, 176, 249);
   border-radius: 12px;
 }
 
