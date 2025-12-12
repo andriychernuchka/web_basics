@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hehe</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="kirby-icon.png" type="image/png">
+</head>
+
+<body>
+    <!-- шапка з навігацією -->
+    <header>
+        <nav>
+            <div class="logo">🎬 hehe</div>
+            <button class="mobile-menu-toggle" aria-label="Меню">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home">Початок</a></li>
+                <li><a href="#features">Функціонал</a></li>
+                <li><a href="#movies">Фільми</a></li>
+                <li><a href="#anime">Аніме</a></li>
+                <li><a href="#series">Серіали</a></li>
+                <li><a href="#about">Про проєкт</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- головна секція -->
+    <section class="hero" id="home">
+        <h1>Агрегатор контенту, який зібрав все в одному місці</h1>
+        <p>Знаходь, дивись та насолоджуйся найкращими фільмами, серіалами та аніме в одному місці</p>
+        <button class="cta-button" id="startButton">Перейти на сайт</button>
+    </section>
+
+    <!-- секція з можливостями -->
+    <section class="features" id="features">
+        <div class="feature-card">
+            <div class="feature-icon">🎥</div>
+            <h3>Величезна Колекція</h3>
+            <p>Фільми, аніме та серіали на будь-який смак</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">⭐</div>
+            <h3>Рейтинги та Огляди</h3>
+            <p>Читай відгуки інших користувачів перед переглядом</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">🔍</div>
+            <h3>Зручний Пошук</h3>
+            <p>Швидко знаходь потрібний контент за різними критеріями</p>
+        </div>
+    </section>
+
+    <!-- секція з фільмами -->
+    <section class="movies" id="movies">
+        <h2>Доступні фільми</h2>
+        <div class="movie-grid">
+            <div class="movie-card" data-title="Інтерстеллар" data-rating="8.7" data-genre="Наукова фантастика, Драма">
+                <img src="https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg" class="movie-poster"
+                    alt="Інтерстеллар">
+                <div class="movie-info">
+                    <h3 class="movie-title">Інтерстеллар</h3>
+                    <p class="movie-rating">⭐ 8.7/10</p>
+                </div>
+            </div>
+            <div class="movie-card" data-title="Джон Уік 4" data-rating="7.9" data-genre="Бойовик, Трилер">
+                <img src="https://image.tmdb.org/t/p/w500/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg" class="movie-poster"
+                    alt="Джон Уік 4">
+                <div class="movie-info">
+                    <h3 class="movie-title">Джон Уік 4</h3>
+                    <p class="movie-rating">⭐ 7.9/10</p>
+                </div>
+            </div>
+            <div class="movie-card" data-title="Опенгеймер" data-rating="8.3" data-genre="Біографія, Драма">
+                <img src="https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg" class="movie-poster"
+                    alt="Опенгеймер">
+                <div class="movie-info">
+                    <h3 class="movie-title">Опенгеймер</h3>
+                    <p class="movie-rating">⭐ 8.3/10</p>
+                </div>
+            </div>
+            <div class="movie-card" data-title="Джокер" data-rating="8.4" data-genre="Трилер, Драма">
+                <img src="https://image.tmdb.org/t/p/w500/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg" class="movie-poster"
+                    alt="Джокер">
+                <div class="movie-info">
+                    <h3 class="movie-title">Джокер</h3>
+                    <p class="movie-rating">⭐ 8.4/10</p>
+                </div>
+            </div>
+            <div class="movie-card" data-title="Бійцівський клуб" data-rating="8.8" data-genre="Драма, Трилер">
+                <img src="https://image.tmdb.org/t/p/w500/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg" class="movie-poster"
+                    alt="Бійцівський клуб">
+                <div class="movie-info">
+                    <h3 class="movie-title">Бійцівський клуб</h3>
+                    <p class="movie-rating">⭐ 8.8/10</p>
+                </div>
+            </div>
+            <div class="movie-card" data-title="Людина-павук: Через всесвіт" data-rating="8.7"
+                data-genre="Анімація, Екшн">
+                <img src="https://image.tmdb.org/t/p/w500/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg" class="movie-poster"
+                    alt="Людина-павук: Через всесвіт">
+                <div class="movie-info">
+                    <h3 class="movie-title">Людина-павук: Через всесвіт</h3>
+                    <p class="movie-rating">⭐ 8.7/10</p>
+                </div>
+            </div>
+            <div class="movie-card" data-title="Володар перснів: Повернення короля" data-rating="9.0"
+                data-genre="Фентезі, Пригоди">
+                <img src="https://image.tmdb.org/t/p/w500/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg" class="movie-poster"
+                    alt="Володар перснів: Повернення короля">
+                <div class="movie-info">
+                    <h3 class="movie-title">Володар перснів: Повернення короля</h3>
+                    <p class="movie-rating">⭐ 9.0/10</p>
+                </div>
+            </div>
+            <div class="movie-card" data-title="1 + 1" data-rating="8.5" data-genre="Комедія, Драма">
+                <img src="https://upload.wikimedia.org/wikipedia/en/9/93/The_Intouchables.jpg" class="movie-poster"
+                    alt="1+1">
+                <div class="movie-info">
+                    <h3 class="movie-title">1 + 1</h3>
+                    <p class="movie-rating">⭐ 8.5/10</p>
+                </div>
+            </div>
+            <div class="movie-card" data-title="Паразити" data-rating="8.5" data-genre="Драма, Трилер">
+                <img src="https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg" class="movie-poster"
+                    alt="Паразити">
+                <div class="movie-info">
+                    <h3 class="movie-title">Паразити</h3>
+                    <p class="movie-rating">⭐ 8.5/10</p>
+                </div>
+            </div>
+            <div class="movie-card" data-title="Субстанція" data-rating="7.3" data-genre="Фантастика, Жахи">
+                <img src="https://image.tmdb.org/t/p/w500/lqoMzCcZYEFK729d6qzt349fB4o.jpg" class="movie-poster"
+                    alt="Субстанція">
+                <div class="movie-info">
+                    <h3 class="movie-title">Субстанція</h3>
+                    <p class="movie-rating">⭐ 7.3/10</p>
+                </div>
+            </div>
+            <div class="movie-card" data-title="Одного разу в Голівуді" data-rating="7.6" data-genre="Комедія, Драма">
+                <img src="https://image.tmdb.org/t/p/w500/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg" class="movie-poster"
+                    alt="Одного разу в Голівуді">
+                <div class="movie-info">
+                    <h3 class="movie-title">Одного разу в Голівуді</h3>
+                    <p class="movie-rating">⭐ 7.6/10</p>
+                </div>
+            </div>
+            <div class="movie-card" data-title="Престиж" data-rating="8.5" data-genre="Драма, Трилер">
+                <img src="https://upload.wikimedia.org/wikipedia/en/d/d2/Prestige_poster.jpg" class="movie-poster"
+                    alt="Престиж">
+                <div class="movie-info">
+                    <h3 class="movie-title">Престиж</h3>
+                    <p class="movie-rating">⭐ 8.5/10</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- секція з аніме -->
+    <section class="movies anime" id="anime">
+        <h2>Доступні аніме</h2>
+        <div class="movie-grid">
+            <div class="movie-card" data-title="Євангеліон" data-rating="8.5" data-genre="Меха, Драма">
+                <img src="https://upload.wikimedia.org/wikipedia/uk/2/28/Neon-Genesis-Evangelion-Cover-10.jpg"
+                    class="movie-poster" alt="Євангеліон">
+                <div class="movie-info">
+                    <h3 class="movie-title">Євангеліон</h3>
+                    <p class="movie-rating">⭐ 8.5/10</p>
+                </div>
+            </div>
+            <div class="movie-card" data-title="Сага про Вінланд" data-rating="8.7" data-genre="Пригоди, Драма">
+                <img src="https://animego.me/upload/anime/images/5d8f86db39318930257463.jpg" class="movie-poster"
+                    alt="Сага про Вінланд">
+                <div class="movie-info">
+                    <h3 class="movie-title">Сага про Вінланд</h3>
+                    <p class="movie-rating">⭐ 8.7/10</p>
+                </div>
+            </div>
+            <div class="movie-card" data-title="Берсерк" data-rating="8.8" data-genre="Фентезі, Екшн">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRggR0WVXeKxf7_uDJJ3V8e69nMX7ewB8H6JB-LvDbTLNDFJeI_qhGewnEyqw6MWmCFCXdDe2A&s=10"
+                    class="movie-poster" alt="Берсерк">
+                <div class="movie-info">
+                    <h3 class="movie-title">Берсерк</h3>
+                    <p class="movie-rating">⭐ 8.8/10</p>
+                </div>
+            </div>
+            <div class="movie-card" data-title="Ковбой Бібоп" data-rating="8.9" data-genre="Науково-фантастичний, Екшн">
+                <img src="https://uaserial.tv/images/serials/64/6463506d4578b308339500.webp" class="movie-poster"
+                    alt="Ковбой Бібоп">
+                <div class="movie-info">
+                    <h3 class="movie-title">Ковбой Бібоп</h3>
+                    <p class="movie-rating">⭐ 8.9/10</p>
+                </div>
+            </div>
+            <div class="movie-card" data-title="Магічна битва" data-rating="8.6" data-genre="Екшн, Надприродне">
+                <img src="https://cdn.hikka.io/content/anime/jujutsu-kaisen-kaigyokugyokusetsu-ae0a03/07cnQmZyI8sfD1B2w158Bg.jpg"
+                    class="movie-poster" alt="Магічна битва">
+                <div class="movie-info">
+                    <h3 class="movie-title">Магічна битва</h3>
+                    <p class="movie-rating">⭐ 8.6/10</p>
+                </div>
+            </div>
+            <div class="movie-card" data-title="Сад слів" data-rating="7.4" data-genre="Романтика, Драма">
+                <img src="https://cdn.hikka.io/content/anime/kotonoha-no-niwa-4be3ca/rByOO62Lpzwq2HXz_Q7ZOA.jpg"
+                    class="movie-poster" alt="Сад слів">
+                <div class="movie-info">
+                    <h3 class="movie-title">Сад слів</h3>
+                    <p class="movie-rating">⭐ 7.4/10</p>
+                </div>
+            </div>
+            <div class="movie-card" data-title="Експерименти Лейн" data-rating="7.8"
+                data-genre="Психологічний, Науково-фантастичний">
+                <img src="https://www.kino-teatr.ru/movie/posters/big/4/0/147204.jpg" class="movie-poster"
+                    alt="Експерименти Лейн">
+                <div class="movie-info">
+                    <h3 class="movie-title">Експерименти Лейн</h3>
+                    <p class="movie-rating">⭐ 7.8/10</p>
+                </div>
+            </div>
+            <div class="movie-card" data-title="Моя дівчина не тільки мила" data-rating="7.6"
+                data-genre="Романтика, Комедія">
+                <img src="https://static.yani.tv/posters/full/1636668803.jpg" class="movie-poster"
+                    alt="Моя дівчина не тільки мила">
+                <div class="movie-info">
+                    <h3 class="movie-title">Моя дівчина не тільки мила</h3>
+                    <p class="movie-rating">⭐ 7.6/10</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- секція з серіалами -->
+    <section class="movies series" id="series">
+        <h2>Доступні серіали</h2>
+        <div class="movie-grid">
+            <div class="movie-card" data-title="Аркейн" data-rating="9.0" data-genre="Анімація, Екшн">
+                <img src="https://image.tmdb.org/t/p/w500/fqldf2t8ztc9aiwn3k6mlX3tvRT.jpg" class="movie-poster"
+                    alt="Аркейн">
+                <div class="movie-info">
+                    <h3 class="movie-title">Аркейн</h3>
+                    <p class="movie-rating">⭐ 9.0/10</p>
+                </div>
+            </div>
+            <div class="movie-card" data-title="Одні з нас (Сезон 2)" data-rating="8.2" data-genre="Жахи, Драма">
+                <img src="https://image.tmdb.org/t/p/w500/uKvVjHNqB5VmOrdxqAt2F7J78ED.jpg" class="movie-poster"
+                    alt="Одні з нас">
+                <div class="movie-info">
+                    <h3 class="movie-title">Одні з нас</h3>
+                    <p class="movie-rating">⭐ 8.2/10</p>
+                </div>
+            </div>
+            <div class="movie-card" data-title="Дивні дива" data-rating="8.7" data-genre="Фантастика, Жахи">
+                <img src="https://image.tmdb.org/t/p/w500/49WJfeN0moxb9IPfGn8AIqMGskD.jpg" class="movie-poster"
+                    alt="Дивні дива">
+                <div class="movie-info">
+                    <h3 class="movie-title">Дивні дива</h3>
+                    <p class="movie-rating">⭐ 8.7/10</p>
+                </div>
+            </div>
+            <div class="movie-card" data-title="Пуститися берега" data-rating="9.5" data-genre="Трилер, Драма">
+                <img src="https://image.tmdb.org/t/p/w500/ggFHVNu6YYI5L9pCfOacjizRGt.jpg" class="movie-poster"
+                    alt="Пуститися берега">
+                <div class="movie-info">
+                    <h3 class="movie-title">Пуститися берега</h3>
+                    <p class="movie-rating">⭐ 9.5/10</p>
+                </div>
+            </div>
+            <div class="movie-card" data-title="Шерлок" data-rating="9.1" data-genre="Детектив, Драма">
+                <img src="https://image.tmdb.org/t/p/w500/7WTsnHkbA0FaG6R9twfFde0I9hl.jpg" class="movie-poster"
+                    alt="Шерлок">
+                <div class="movie-info">
+                    <h3 class="movie-title">Шерлок</h3>
+                    <p class="movie-rating">⭐ 9.1/10</p>
+                </div>
+            </div>
+            <div class="movie-card" data-title="Чорне дзеркало" data-rating="8.8" data-genre="Трилер, Фантастика">
+                <img src="https://m.media-amazon.com/images/M/MV5BYTM3YWVhMDMtNjczMy00NGEyLWJhZDctYjNhMTRkNDE0ZTI1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg"
+                    class="movie-poster" alt="Чорне дзеркало">
+                <div class="movie-info">
+                    <h3 class="movie-title">Чорне дзеркало</h3>
+                    <p class="movie-rating">⭐ 8.8/10</p>
+                </div>
+            </div>
+            <div class="movie-card" data-title="Відьмак" data-rating="8.2" data-genre="Фентезі, Пригоди">
+                <img src="https://image.tmdb.org/t/p/w500/7vjaCdMw15FEbXyLQTVa04URsPm.jpg" class="movie-poster"
+                    alt="Відьмак">
+                <div class="movie-info">
+                    <h3 class="movie-title">Відьмак</h3>
+                    <p class="movie-rating">⭐ 8.2/10</p>
+                </div>
+            </div>
+            <div class="movie-card" data-title="Гра Престолів" data-rating="9.3" data-genre="Фентезі, Драма">
+                <img src="https://image.tmdb.org/t/p/w500/1XS1oqL89opfnbLl8WnZY1O1uJx.jpg" class="movie-poster"
+                    alt="Гра Престолів">
+                <div class="movie-info">
+                    <h3 class="movie-title">Гра Престолів</h3>
+                    <p class="movie-rating">⭐ 9.3/10</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- про нас -->
+    <div class="modal" id="movieModal">
+        <div class="modal-content">
+            <h2 id="modalTitle">Назва фільму</h2>
+            <p id="modalInfo">Інформація про фільм</p>
+            <button class="close-button" id="closeModal">Закрити</button>
+        </div>
+    </div>
+
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2>Про hehe</h2>
+            <p>hehe - це сучасний агрегатор фільмів, створений для того, щоб зробити пошук та перегляд фільмів
+                максимально зручним. Розробляється 1 людиною, та має бюджет в 1 пачку сухариків та банку живчика (з
+                лавандою)
+            </p>
+        </div>
+    </section>
+
+    <!-- футер -->
+    <footer>
+        <div class="footer-content">
+            <!-- паслахлочка -->
+            <div class="gif-modal" id="gifModal">
+                <div class="gif-modal-content">
+                    <span class="gif-close" id="gifClose">&times;</span>
+                    <img src="shaw.jpg" alt="Shaw" class="gif-image" id="gifImage">
+                    <p class="gif-text">Ти знайшов секрет! 🎉</p>
+                </div>
+            </div>
+
+            <div class="footer-top">
+                <div class="footer-info">
+                    <h3>hehe</h3>
+                    <p>Tвій улюблений агрегатор контенту</p>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://t.me/sespurechannel" class="social-icon" title="Telegram">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.295-.6.295-.002 0-.003 0-.005 0l.213-3.054 5.56-5.022c.24-.213-.054-.334-.373-.121L8.08 13.73l-2.99-.935c-.65-.2-.658-.65.135-.962l11.67-4.5c.538-.196 1.006.128.832.888z" />
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com/sesspure/" class="social-icon" title="Instagram">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                        </svg>
+                    </a>
+                    <a href="https://www.youtube.com/@sespure/featured" class="social-icon" title="YouTube">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                        </svg>
+                    </a>
+                    <a href="https://github.com/andriychernuchka" class="social-icon" title="GitHub">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 <span id="easterEgg" style="cursor: pointer;">hehe</span> всі права захищені.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/test.js"></script>
+</body>
+
+</html>

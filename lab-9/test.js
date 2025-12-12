@@ -1,5 +1,5 @@
 // homework 1
-var pattern = [9, 17, 23, 27, 29, 29, 27, 23, 17, 9];
+var pattern = [9, 13, 20, 30, 45, 45, 30, 20, 13, 9];
 
 for (var i = 0; i < pattern.length; i++) {
     var stars = "";
