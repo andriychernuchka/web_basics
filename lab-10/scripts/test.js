@@ -42,11 +42,18 @@ function getRatingClass(rating) {
     return 'low';
 }
 
-movieCards.forEach(function (card) {
+function updateRatingColor(card) {
     const rating = card.getAttribute('data-rating');
     const ratingElement = card.querySelector('.movie-rating');
+    // видаляємо всі класи рейтингів
+    ratingElement.classList.remove('high', 'medium', 'low');
+    // додаємо новий клас
     const ratingClass = getRatingClass(rating);
     ratingElement.classList.add(ratingClass);
+}
+
+movieCards.forEach(function (card) {
+    updateRatingColor(card);
 });
 
 // пасхалка
@@ -95,11 +102,13 @@ movieCards.forEach(function (card) {
 // закриття модального вікна
 closeModalButton.addEventListener('click', function () {
     modal.style.display = 'none';
+    movieCards.forEach(c => c.classList.remove('active'));
 });
 
 modal.addEventListener('click', function (event) {
     if (event.target === modal) {
         modal.style.display = 'none';
+        movieCards.forEach(c => c.classList.remove('active'));
     }
 });
 
